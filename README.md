@@ -17,5 +17,3 @@ Dashboard Pages
 ![ScreenShot](https://github.com/Shaheer-rossoneri14/DBMS_MiniProject/blob/main/screenshots/teacher_dashboard.png)
 ![ScreenShot](https://github.com/Shaheer-rossoneri14/DBMS_MiniProject/blob/main/screenshots/student_dashboard.png)
 
-
-
