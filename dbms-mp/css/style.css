@@ -1,0 +1,212 @@
+
+*{
+    margin: 0,0;
+    padding: 0,0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    width:80%;
+    margin: 0 auto;
+    padding: 1%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.img-responsive{
+    width: 100%;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+.text-center{
+    text-align: center;
+}
+.text-grey{
+    color: rgb(121, 115, 115);
+}
+.text-white{
+    color: white;
+}
+a{
+    color:#2F4F4F;
+    text-decoration: none;
+}
+a:hover{
+    color: #228B22;
+}
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+}
+.btn-primary{
+    background-color: darksalmon;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color: palevioletred;
+    color: white;
+}
+
+h2{
+    color: rgb(8, 8, 8);
+    font-size: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+    font-size: 1.5rem;
+}
+
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 30px;
+    left: 30%;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+.error{
+    padding: 2%;
+    color: red;
+}
+.success{
+    padding: 2%;
+    color: green;
+}
+/*Styling for logo*/
+.logo{
+    width: 12%;
+    float: left;
+}
+
+.Menu ul{
+    list-style-type: none;
+    
+}
+
+.Menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+
+.place-order{
+    background-color: #999c9c;
+    background-repeat: no-repeat;
+    height: 1000px;
+    
+}
+
+/*Styling for category section*/
+.Category{
+    padding: 3% 0;
+}
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+/*Styling for categories section*/
+
+
+.event-name{
+    width:50%;
+    float: left;
+    margin-left: 5%;
+}
+.event-detail{
+    font-size: 1.2rem;
+}
+.food-detail{
+    font-size: 1.2rem;
+}
+
+/*styling for social media section*/
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/*styling for place order section*/
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: left;
+}
+.order-label{
+    margin-bottom: 1%;
+    font-weight: bold;
+    
+}
+/*Making the website mobile ready*/
+@media screen and (max-width: 992px){
+    .logo{
+        width:35%;
+        float: none;
+        margin: 1% auto;
+    }
+    .Menu ul{
+       text-align: center; 
+    }
+    .Search-food input[type="search"]{
+        width: 90%;
+        margin: 5%;
+        padding: 2%;
+    }
+    .box-3{
+        width: 80%;
+        margin: 2% auto;
+    }
+    .Category{
+        padding: 10%, 0;
+    }
+    .box-3{
+        width: 90%;
+        margin: 4% auto;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .food-menu{
+        background-color:rgb(173, 172, 171);
+        padding: 20% 0;
+
+    }
+    .food-menu-box{
+        width: 95%;
+        padding:5% ;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .order{
+        width: 100%;
+    }
+    
+}

@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.stock-details{
+    display:flex  ;
+    height: 100vh;
+}
+
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+}
+.tbl-30{
+    width: 30%;
+    margin-left: auto; 
+    margin-right: auto;
+}
+.tbl-31{
+    width:30%;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+.btn-primary{
+    background-color: #f3a45be3;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondary{
+    background-color: #7bed9f;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color: #2ed573;
+}
+.btn-primary:hover{
+    background-color: #d36735;
+}
+
+
+
+/* CSS for Menu */
+.menu{
+    border-bottom: 1px solid grey;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#f1a581;
+}
+.menu ul li a:hover{
+    color: #610a7d;
+}
+
+
+/* CSS for main-content */
+.main-content{
+    background-color: #d8bedd;
+    padding: 3% 1% 20% 3%;
+}
+
+.col-4{
+    width: 18%;
+    background-color: rgb(247, 253, 253);
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    border-color: #eb6f6f;
+}
+
+
+/* CSS for Footer */
+.footer{
+    background-color: #eb6f6f;
+    color: white;
+}
+
+/* CSS for Login */
+.login{
+    
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+    background: linear-gradient(to right, #9999ff 0%, #ff99cc 100%);
+}
+/*styling for place order section*/
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: left;
+}
+.order-label{
+    margin-bottom: 1%;
+    font-weight: bold;
+    
+}
